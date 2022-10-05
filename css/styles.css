@@ -424,7 +424,7 @@ ul {
 /* Cursor pointer для кнопок */
 
 .hero-button,
-.secondary-button 
+.nav__secondary-btn
 {
     cursor: pointer;
     transition: 250ms var(--animation-timing);
@@ -685,7 +685,7 @@ margin-bottom: 4px;
 
 
 
-.secondary-button {
+.nav__secondary-btn {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -697,8 +697,8 @@ margin-bottom: 4px;
     
     }
 
-.secondary-button:hover,
-.secondary-button:focus {
+.nav__secondary-btn:hover,
+.nav__secondary-btn:focus {
     color: var(--primary-white-color);
     background-color: var(--logo-color);
 }
@@ -1193,25 +1193,25 @@ margin-bottom: 4px;
 
 
     /*  ПОРТФОЛІО  */
-.navigation {
+.nav {
     display:none;
 }   
 
-.nav-container {
+.nav__container {
     width: 1600px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 50px;
 }
 
-.nav-button {
+.nav__button {
     display: flex;
     justify-content: center;
     padding: 0;
     padding-top: 94px;
 }
 
-.secondary-button {
+.nav__secondary-btn {
     
      padding: 0;
      border-radius: 4px;
@@ -1222,22 +1222,22 @@ margin-bottom: 4px;
     background-color: var(--primary-button-background);
 }
 
-.nav-button .secondary-button:first-child {
+.nav__button .nav__secondary-btn:first-child {
     padding: 6px 25px;
     min-width: 73px;
 }
 
-.nav-button .item {
+.nav__button .item {
     padding-right: 8px;
          
 }
 
-.secondary-button:hover {
+.nav__secondary-btn:hover {
     border-radius: 4px;
       box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.nav-button .item:last-child {
+.nav__button .item:last-child {
     padding-right: 0px;
 }
 
