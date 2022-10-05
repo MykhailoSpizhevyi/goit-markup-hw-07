@@ -383,7 +383,7 @@ ul {
     
 }
 
-.hero-title {
+.hero__title {
     
         
         font-weight: 900;
@@ -398,24 +398,16 @@ ul {
 
 }
 
-.hero-container {
+.hero__container {
     
     text-align: center;
     margin-right: auto;
     margin-left: auto;
     
 }
- .overlay {
-    /* display: flex; */
-    /* height: 600px; */
-    /* max-width: 1600px; */
+ .hero__overlay {
     margin-left: auto;
     margin-right: auto;
-    
-    /* background-image: url(../images/heroimg.jpg); */
-    
-    
-
 } 
 
 
@@ -423,7 +415,7 @@ ul {
 
 /* Cursor pointer для кнопок */
 
-.hero-button,
+.hero__button,
 .nav__secondary-btn
 {
     cursor: pointer;
@@ -433,7 +425,7 @@ ul {
 
 /* кнопка замовити послугу */
 
-.hero-button {
+.hero__button {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -447,8 +439,8 @@ ul {
     font-family: inherit;
  }
 
-.hero-button:hover,
-.hero-button:focus { 
+.hero__button:hover,
+.hero__button:focus { 
 color: var(--primary-white-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 } 
