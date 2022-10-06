@@ -873,7 +873,7 @@ margin-bottom: 4px;
 
 /* Наша команда */
 
-.team-section {
+.team {
     display: flex;
     /* width: 1600px; */
     margin-left: auto;
@@ -881,70 +881,71 @@ margin-bottom: 4px;
     background-color: var(--primary-button-background);
     padding-bottom: 94px;
     
+    
 }
 
-.team-container {
+.team__container {
     margin-left: auto;
     margin-right: auto;
 }
 
 
 
-.team__title {
-    padding-top: 94px;
-}
 
-.team {
+
+.team__menu {
     
     display: flex;
-    /* margin-left: 215px; */
+    
     padding-left: 0;
     margin-top: 50px;
 
 }
 
-.team-item {
+.team__item {
     margin-right: 30px;
     border: 1px solid var(--border-color);
     background-color: var(--primary-white-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.team-item:last-child {
+.team__item:last-child {
     margin-right: 0;
 }
 
-.team-item .title {
+.team__item .title {
     text-align: center;
     margin-bottom: 10px;
     
 }
 
-.team-item .text {
+.team__item .text {
     text-align: center;
     
 }
 
 
-.team .title {
-    
+.team__title {
+    /* padding-top: 94px; */
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+    margin-bottom: 10px;
     }
 
-.team .text {color: var(--primary-gray-text);
+.team__text {color: var(--primary-gray-text);
     
     font-size: 16px;
     line-height: 1.18;
+    text-align: center;
     }
-.social-list{
+.social__list{
     display: flex;
     justify-content: center;
     column-gap: 10px;
     padding: 0;
     margin-bottom: 30px;
 }
-.social-list-link {
+.social__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -956,32 +957,32 @@ margin-bottom: 4px;
 }
 
 
-.social-list-link:hover,
-.social-list-link:focus {
+.social__link:hover,
+.social__link:focus {
     background-color: var(--logo-color)
 }
 
-.social-list-link:hover .icon-team,
-.social-list-link:focus .icon-team {
+.social__link:hover .social__logo,
+.social__link:focus .social__logo {
     fill: var(--primary-white-color);
 }
 
 
-.icon-team {
+.social__logo {
     fill: var(--border-logo);
     transition: 250ms var(--animation-timing);
 }
 
-.icon-team:hover {
+.social__logo:hover {
     fill: #2196F3;
 
 }
 
 
     
-.block {
+.team__block {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
 }    
 
 /* Клієнти */
