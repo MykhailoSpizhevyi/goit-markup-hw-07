@@ -991,14 +991,14 @@ margin-bottom: 4px;
     
 }
 
-.clients-container {
+.clients__container {
     /* display: flex; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 94px;
 }
 
-.clients-title {
+.clients__title {
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -1007,7 +1007,7 @@ margin-bottom: 4px;
     letter-spacing: 0.03em;
  }
 
- .cards-item {
+ .cards__item {
     display: flex;
     width: 170px;
     height: 92px;
@@ -1018,7 +1018,7 @@ margin-bottom: 4px;
     
  }
 
- .cards-link {
+ .cards__link {
     padding: 15px 32px;
     border: 1px solid var(--border-color);
     border-radius: 4px;
@@ -1026,17 +1026,17 @@ margin-bottom: 4px;
     
  }
 
- .cards-link:hover,
- .cards-link:focus {
+ .cards__link:hover,
+ .cards__link:focus {
     border-color: #2196F3;
     
  }
 
- .cards-link:hover .client-logo,
- .cards-link:focus .client-logo {
+ .cards__link:hover .cards__client-logo,
+ .cards__link:focus .cards__client-logo {
     fill: var(--logo-color);
  }
- .cards-list {
+ .cards__list {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -1048,12 +1048,12 @@ margin-bottom: 4px;
     margin-bottom: 94px;
  }
 
- .client-logo {
+ .cards__client-logo {
     fill: var(--border-logo);
     transition: 250ms var(--animation-timing);
  }
- .client-logo:hover ,
- .client-logo:focus {
+ .cards__client-logo:hover ,
+ .cards__client-logo:focus {
     fill: var(--logo-color);
  }
 
