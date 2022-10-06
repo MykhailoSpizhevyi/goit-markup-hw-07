@@ -212,9 +212,7 @@ ul {
     position: relative;
     transition: 250ms var(--animation-timing);
     /* padding-top: 6px; */
-    
-
-}
+    }
 
  
 
@@ -276,24 +274,13 @@ ul {
 
 .menu {
     display: flex;
-    /* margin-left: 344px; */
     padding-left: 0;
 }
 .menu .link:hover,
 .menu .link:focus {
     transition: 250ms var(--animation-timing ); 
 }
-/* .icon-mail::before {
-    display: inline-block;
-    content: "";
-    background-image: url(../images/mail.svg);
-    width: 16px;
-    height: 12px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-right: 10px;
-} */
+
 .mail, .smartphone {
     fill: currentColor;
     padding-right: 10px;
@@ -309,7 +296,7 @@ ul {
     display: inline-flex;
     margin-right: 10px;
    
-    /* flex-direction: row-reverse; */
+   
 
 }
 .icon-smartphone {
