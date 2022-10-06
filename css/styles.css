@@ -111,7 +111,8 @@ ul {
     margin-left: 63px;
 }
 
-.footer__logo-accent {color:var(--logo-color)}
+.footer__logo-accent,
+.header__logo-accent {color:var(--logo-color)}
 
    /* Footer mail form */
 
