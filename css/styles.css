@@ -414,7 +414,7 @@ ul {
     color: var(--primary-white-color);
     background-color: var(--logo-color);
     margin-bottom: 200px;
-    border-radius: 4px;
+     border-radius: 4px;
     border: none;
     padding: 10px 32px;
     letter-spacing: 0.06em;
@@ -626,6 +626,7 @@ margin-bottom: 4px;
 .modal__policy-text{
     color: var(--logo-color);
 }
+
 .modal__contact__form-field:checked + .modal__form-check {
     background-color: var(--logo-color);
     border-color: var(--logo-color);
