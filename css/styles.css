@@ -992,7 +992,7 @@ margin-bottom: 4px;
     letter-spacing: 0.03em;
  }
 
- .cards__item {
+ .clients__item {
     display: flex;
     width: 170px;
     height: 92px;
@@ -1003,7 +1003,7 @@ margin-bottom: 4px;
     
  }
 
- .cards__link {
+ .clients__link {
     padding: 15px 32px;
     border: 1px solid var(--border-color);
     border-radius: 4px;
@@ -1011,17 +1011,17 @@ margin-bottom: 4px;
     
  }
 
- .cards__link:hover,
- .cards__link:focus {
+ .clients__link:hover,
+ .clients__link:focus {
     border-color: #2196F3;
     
  }
 
- .cards__link:hover .cards__client-logo,
- .cards__link:focus .cards__client-logo {
+ .clients__link:hover .clients__logo,
+ .clients__link:focus .clients__logo {
     fill: var(--logo-color);
  }
- .cards__list {
+ .clients__list {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -1033,12 +1033,12 @@ margin-bottom: 4px;
     margin-bottom: 94px;
  }
 
- .cards__client-logo {
+ .clients__logo {
     fill: var(--border-logo);
     transition: 250ms var(--animation-timing);
  }
- .cards__client-logo:hover ,
- .cards__client-logo:focus {
+ .clients__logo:hover ,
+ .clients__logo:focus {
     fill: var(--logo-color);
  }
 
