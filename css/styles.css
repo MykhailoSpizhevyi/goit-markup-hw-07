@@ -199,9 +199,6 @@ ul {
     line-height: 1.25px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    
-    
-    
 }
 
 /* навігація */
@@ -1104,7 +1101,6 @@ margin-bottom: 4px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 20px;
-
 }
 
 .footer__social-list {
@@ -1141,24 +1137,24 @@ margin-bottom: 4px;
     color: var(--primary-white-color);
     text-decoration: none;
     
-    }
+}
     
 .footer__contact-map:hover,
 .footer__contact-map:focus {
         color: var(--logo-color);
-    }
+}
 
 .footer__contact-info {
     font-size: 14px;
     line-height: 1.71;
     color: var(--contact-color);
     text-decoration: none;
-    }
+}
     
 .footer__contact-info:hover,
 .footer__contact-info:focus {
         color: var(--logo-color);
-    }
+}
 
 
     /*  ПОРТФОЛІО  */
