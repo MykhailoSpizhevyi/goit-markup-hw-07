@@ -1,19 +1,18 @@
-.footer__logo-icon {
-    font-family: Raleway, sans-serif;
-    color: var(--primary-white-color);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    text-decoration: none;
+.footer {
+    background-color: var(--background-dark-color);
+    margin-left: auto;
+    margin-right: auto;
+
 }
+
+
+
 
 .footer__social {
     margin-left: 63px;
 }
 
-.footer__logo-accent {
-        color: var(--logo-color);
-    }
+
 
 .footer__contact-form {
     margin-left: 93px;
@@ -63,12 +62,7 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer {
-    background-color: var(--background-dark-color);
-    margin-left: auto;
-    margin-right: auto;
 
-}
 
 .footer__container {
     display: flex;
